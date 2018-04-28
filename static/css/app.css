@@ -6,7 +6,6 @@ body {
     height:100%;  
     background-size:100% 100%;  
     position:absolute;  
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/photo-1522143804971-93c748148fbd.jpg',sizingMethod='scale');  
 }
 
 .card {
