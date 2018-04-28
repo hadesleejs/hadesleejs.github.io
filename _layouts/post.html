@@ -1,0 +1,23 @@
+---
+layout: base
+---
+<div class="grid-x layout-post">
+  <div class="medium-12">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </div>
+  <div class="medium-12 small-12">
+      <i class="fa fa-calendar"></i><span class="post-date"> {{ page.date | date: '%Y-%m-%d' }}</span>
+      <i class="fa fa-tags"></i><span class="post-tags"> {{ page.tags | join: ", " }}</span>    
+  </div>
+  <div class="medium-12 post-content" style="margin-top: 10px; margin-bottom: 10px;">
+{{ content }}
+  </div>
+</div>
+
+<div class="grid-x">
+
+</div>
+
+<div class="grid-x">
+
+</div>

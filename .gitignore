@@ -1,0 +1,15 @@
+.py2env/
+.py3env/
+.idea/
+.removed/
+.temps/
+.vscode/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+.python-version
+
+_site/

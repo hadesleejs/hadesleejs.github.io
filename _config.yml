@@ -1,0 +1,5 @@
+url: http://rickgray.me
+baseurl: 
+
+plugins:
+  - jekyll-paginate
