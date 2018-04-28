@@ -636,7 +636,10 @@ textarea {
   .grid-x > .medium-11 {
     width: 91.66667%; }
   .grid-x > .medium-12 {
-    width: 100%; } }
+    width: 100%;
+    opacity: 0;
+
+     } }
 
 @media print, screen and (min-width: 64em) {
   .grid-x > .large-auto {
