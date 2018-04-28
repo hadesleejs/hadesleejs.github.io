@@ -6,7 +6,6 @@ body {
 .card {
     border: 1px solid #dddee1;
     border-color: #e9eaec;
-    background: #fff;
     border-radius: 4px;
     font-size: 14px;
     transition: all .2s ease-in-out;
