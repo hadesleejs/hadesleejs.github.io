@@ -533,7 +533,8 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+      flex-flow: row wrap;
+  opacity: 0; }
 
 .cell {
   -ms-flex: 0 0 auto;
