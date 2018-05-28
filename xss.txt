@@ -20,3 +20,4 @@
 - http://xss.test/?input=</script><script>alert(1)</script>
 
 http://mms.pinduoduo.com/Pdd.html#/newdynamic/index_detail?ruleId=105&time=2017-08-04
+https://hadeslee.xss.ht/
