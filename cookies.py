@@ -22,3 +22,4 @@ print(s1)
 
 
 https://manage.job910.com/FeedBak/default.aspx?tag=0
+https://manage.job910.com/user/View.aspx?UserID=0
