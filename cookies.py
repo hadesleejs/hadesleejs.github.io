@@ -45,3 +45,7 @@ Accept-Encoding: gzip, deflate
 Content-Length: 324
 
 __VIEWSTATE=AfV%2FBAW%2F1yZFKdYDcYhX22B0ezT23uzVFqTAdLTe%2F4GA0vWDNgXDwFowxzczkq7ikyNur1Yz2en1j3%2F%2F8jPveRLfj%2BQ%3D&__VIEWSTATEGENERATOR=C2EE9ABB&__EVENTVALIDATION=njgq1xmIV544Byb2XSI0vxtwzjpDefoeWVVqfgDMsshC%2BmZ6Vi2pOBgcOwmiLxN%2FwFaqmkqrnPVnT8ULEEcQihjbBtPTIzSDoRJnPW00LtICnDfE&btn_login=&UserName=admin&PassWord=admin
+
+
+
+cat /etc/neutron/plugins/ml2/linuxbridge_agent.ini |grep local_ip|grep -v ^ # local_ip = 10.20.10.110
