@@ -1,0 +1,17 @@
+POST http://content-api.yupaopao.cn/v1/user/relation/follow HTTP/1.1
+Host: content-api.yupaopao.cn
+X-Udid: 0e67bea7914e48e6bc4e1da50cf08c15
+X-Client-Time: 1558600453000
+X-Sign: 88f5ccc2e62c87575db7f79f26e608c5
+X-AccessToken: kfddRTJ355AIx2IS9Aw65EhN1OMu-FCJIifgQyEvR0EenX6l0i655EIny-mUOQ0GOd86LJyq9VopV5folYJc5_b93BkSjJoty8H_sz9lss3j4HjxJc5-FXhc5Rv0veC5OT3hb0S_YY_GsCmNxS-Z0GSixHSsbg6dkeqJzdCtxUg
+X-NetWork: 
+X-User-Agent: mapi/1.0 (Windows 10;pc.yupaopao.bixin 4.1.8.0;windows;qt-fusion)
+X-Authentication: 92278be72138eb237385093b25cf3630
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: Keep-Alive
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en,*
+User-Agent: Mozilla/5.0
+
+{"fromUser":"9525d5ada11d4b1d1426a30aed5d104d","isCancelBlack":1,"toUser":"94a2893bcec800b3b428454badb325f8"}
